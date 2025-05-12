@@ -10,7 +10,7 @@ dotenv.config();
 // MIDDLEWARE
 
 app.use(cors({
-    origin: ["http://localhost:8081/"],
+    origin: ["http://localhost:8081"],
     methods: ["POST", "GET", "PUT", "DELETE"],    
     credentials: true
 }))
