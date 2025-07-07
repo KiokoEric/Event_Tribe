@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Event_Tribe",
+    "slug": "Event_Tribe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Images/Event_Tribe.png",
+    "scheme": "eventtribe",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Images/Event_Tribe.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/Images/Event_Tribe.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/Images/Event_Tribe.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
